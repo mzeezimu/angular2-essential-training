@@ -21,7 +21,6 @@ import { MediaItemFormComponent } from './media-item-form.component';
     FavoriteDirective,
     CategoryListPipe,
     MediaItemFormComponent
-
   ],
   bootstrap: [
     AppComponent

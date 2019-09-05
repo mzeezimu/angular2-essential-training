@@ -1,7 +1,7 @@
 import { Directive , HostBinding, HostListener, Input} from '@angular/core';
 
 @Directive({
-  selector: '[mwFavorite]',
+  selector: '[mwFavorite]'
 
 })
 export class FavoriteDirective {

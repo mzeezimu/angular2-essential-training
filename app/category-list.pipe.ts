@@ -4,13 +4,13 @@ import { Pipe } from '@angular/core';
   name: 'categoryList'
 })
 export class CategoryListPipe {
-  transform(mediaItems){
+  transform(mediaItems) {
     var categories = [];
     mediaItems.forEach(mediaItem => {
-    if (categories.indexOf(mediaItem.category) <= -1) {
-      categories.push(mediaItem.category);
+      if (categories.indexOf(mediaItem.category) <= -1) {
+        categories.push(mediaItem.category);
       }
     });
-     return categories.join(', ');
+    return categories.join(', ');
   }
 }

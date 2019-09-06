@@ -20,7 +20,6 @@ import { routing } from './app.routing';
     ReactiveFormsModule,
     HttpClientModule,
     routing
-
   ],
   declarations: [
     AppComponent,
